@@ -1,3 +1,5 @@
+import chefSrc from './assets/images/chef.jpeg';
+
 function createHome() {
     const home = document.createElement('div');
     home.id = 'home';
@@ -20,7 +22,7 @@ function createHome() {
 
     const chefImg = document.createElement('img');
     chefImg.id = 'chefImg';
-    chefImg.src = './assets/images/chef.jpeg';
+    chefImg.src = chefSrc;
 
     const chefP = document.createElement('p');
     chefP.textContent = 'Sweeeeet Apetit!';
